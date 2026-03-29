@@ -1,0 +1,38 @@
+{
+  "name": "esp32-surveillance-server",
+  "version": "1.0.0",
+  "description": "Serveur ESP32 CAM pour système RSSI",
+  "main": "esp32-server.js",
+  "scripts": {
+    "start": "node esp32-server.js",
+    "dev": "nodemon esp32-server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.7.2",
+    "cors": "^2.8.5",
+    "multer": "^2.1.1",
+    "uuid": "^9.0.0",
+    "dotenv": "^16.3.1",
+    "helmet": "^7.0.0",
+    "morgan": "^1.10.0",
+    "bcrypt": "^5.1.1",
+    "jsonwebtoken": "^9.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "keywords": [
+    "esp32",
+    "camera",
+    "rssi",
+    "surveillance",
+    "websocket",
+    "iot"
+  ],
+  "author": "RSSI Surveillance System",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
